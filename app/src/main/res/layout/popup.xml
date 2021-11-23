@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/definitionPopup"
+        android:layout_width="324dp"
+        android:layout_height="66dp"
+        android:gravity="center_horizontal"
+        android:text="Based on your inputs, your average final damage is:"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.251" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="325dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="12dp"
+        android:gravity="center_horizontal"
+        android:text="Result: "
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/definitionPopup"
+        tools:layout_editor_absoluteX="43dp" />
+
+    <Button
+        android:id="@+id/saveResult"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="4dp"
+        android:text="Save Result"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+
+    <Button
+        android:id="@+id/resetFields"
+        android:layout_width="130dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="4dp"
+        android:text="Reset Fields"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.846"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

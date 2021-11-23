@@ -1,0 +1,72 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Warhammer40K</string>
+
+    <string-array name="damageNum">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>1d3</item>
+        <item>1d6</item>
+        <item>2d3</item>
+        <item>2d6</item>
+    </string-array>
+
+    <string-array name="damageModNum">
+        <item>-1</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+
+    </string-array>
+
+    <string-array name="definitions">
+        <item>Attack</item>
+        <item>Armor Saving Throw</item>
+        <item>Armor Penetration (AP)</item>
+        <item>Damage Roll</item>
+        <item>Feel No Pain</item>
+        <item>Hits</item>
+        <item>Invulnerable Saving Throw</item>
+        <item>Random Damage</item>
+        <item>Skill</item>
+        <item>Strength</item>
+        <item>Toughness</item>
+        <item>Wounds</item>
+    </string-array>
+
+    <string name= "wounding">
+        "Strength: How powerful unit attacks are \n \n"
+        "Toughness: A model's durability \n \n"
+        "Wounds: Successful hits that the enemy must make their armor/invulnerable saves against \n \n"
+        "Damage Roll: The roll that determines the amount of damage caused to a target \n \n"
+        "Random Damage: A random damage modifier selected after a d3/d6 dice roll"</string>
+    <string name="hitting">
+        "Attacks/Shots: Attacks are ranged or melee depending on weapon type used \n \n"
+        "Unit Weapon Skill: A skill on the datasheet listed under WS or BS heading. This represents the minimum result required to successfully hit a target with a weapon. "
+                           </string>
+    <string name="saves">
+        "Armor Save: An armor saving throw is a saving throw made using a models save characteristic " \n \n
+        "AP (Armor Penetration): A weapons ability to penetrate the armor of the target, expressed on the units data sheet as “AP” in the weapons stat line" \n \n
+        "Invulnerable Save: A saving throw that can not be modified by anything other than niche special rules, examples include saves granted by storm shields, Iron halos or refactor shields" \n \n
+        "Feel No Pain: A saving throw rolled after armor saves are taken but before damage is finalized, examples include an Apothecaries aura ability"</string>
+    <string name="attack">Attack: An attack is either a ranged attack or melee attack depending on the weapon type used to make the attack</string>
+    <string name="armorsavingthrow">Armor Saving Throw: An armor saving throw is a saving throw made using a models save characteristic</string>
+    <string name="ap">Armor Penetration (AP): A weapons ability to penetrate the armor of the target, expressed on the units data sheet as “AP” in the weapons stat line</string>
+    <string name="damageroll">Damage Roll: The roll made to determine the amount of damage caused to a target</string>
+    <string name="feelnopain">Feel No Pain: A saving throw rolled after armor saves are taken but before damage is finalized, examples include an Apothecaries aura ability</string>
+    <string name="hits">Hits: The successful number of attacks</string>
+    <string name="invulnerable">Invulnerable Saving Throw: A saving throw that can not be modified by anything other than niche special rules, examples include saves granted by storm shields, Iron halos or refactor shields</string>
+    <string name="randomdamage">Random Damage: some weapons use a d3 or d6 for their damage, making the result random. Common examples are melta weapons 1d6+2 or a dreadnoughts close combat weapon 1d3+3</string>
+    <string name="skill" >Skill: This is a statistic found on your unit\'s datasheet, listed under the heading WS or BS. This number is expressed as a "X+" with X being a result on a six sided dice. This represents the minimum result required to successfully hit a target with a ranged weapon (Ballistic Skill) or a melee weapon (Weapon Skill)</string>
+    <string name="strength">Strength: A weapon or model stat that determines how powerful their attacks are, expressed on the data sheet as “S”, and can be modified based on the weapon used. For example a melee weapon may have “+3” listed as its Strength meaning the weapons total strength is the models base +3 for the weapon</string>
+    <string name="toughness" >Toughness: A model\'s durability, expressed on the sheet as “T”</string>
+    <string name="wounds">Wounds: The successful hits that are converted into wounds that the enemy must make their armor or invulnerable saves against</string>
+
+
+
+</resources>
